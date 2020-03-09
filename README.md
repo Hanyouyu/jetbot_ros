@@ -142,12 +142,14 @@ $ catkin_make
 # confirm that jetbot_ros package can be found
 $ rospack find jetbot_ros
 /home/nvidia/workspace/catkin_ws/src/jetbot_ros
-```
+
 cd ./src/jetbot_ros/scripts
 
 chmod +x teleop_key.py
-
 chmod +x teleop_joy.py
+
+```
+
 
 
 ## Testing JetBot
