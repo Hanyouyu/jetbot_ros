@@ -133,7 +133,7 @@ Clone and build the [`jetbot_ros`](https://github.com/dusty-nv/jetbot_ros) repo:
 ```bash
 # clone the repo
 $ cd ~/workspace/catkin_ws/src
-$ git clone https://github.com/waveshare/jetbot_ros
+$ git clone https://github.com/Hanyouyu/jetbot_ros
 
 # build the package
 $ cd ../    # cd ~/workspace/catkin_ws
