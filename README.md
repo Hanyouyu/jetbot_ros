@@ -45,8 +45,8 @@ These Python libraries from Adafruit support the TB6612/PCA9685 motor drivers an
 $ sudo apt-get install python-pip
 
 # install Adafruit libraries
-$ pip install Adafruit-MotorHAT
-$ pip install Adafruit-SSD1306
+$ pip2 install Adafruit-MotorHAT
+$ pip2 install Adafruit-SSD1306
 ```
 
 Grant your user access to the i2c bus:
@@ -132,7 +132,7 @@ Clone and build the [`jetbot_ros`](https://github.com/dusty-nv/jetbot_ros) repo:
 ```bash
 # clone the repo
 $ cd ~/workspace/catkin_ws/src
-$ git clone https://github.com/dusty-nv/jetbot_ros
+$ git clone https://github.com/waveshare/jetbot_ros
 
 # build the package
 $ cd ../    # cd ~/workspace/catkin_ws
@@ -141,6 +141,11 @@ $ catkin_make
 # confirm that jetbot_ros package can be found
 $ rospack find jetbot_ros
 /home/nvidia/workspace/catkin_ws/src/jetbot_ros
+
+cd ./src/jetbot_ros/scripts
+
+chmod +x teleop_key.py
+chmod +x teleop_joy.py
 ```
 
 ## Testing JetBot
