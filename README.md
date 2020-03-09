@@ -1,6 +1,7 @@
 # jetbot_ros
 ROS nodes and Gazebo model for NVIDIA JetBot with Jetson Nano
 
+Resolved some issues that occurred during jetbot_ros installation
 
 ## System Configuration
 
